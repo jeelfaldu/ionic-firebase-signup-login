@@ -24,6 +24,7 @@ export const firebaseConfig = {
   declarations: [
     MyApp,
     AboutPage,
+
     ContactPage,
     HomePage,
     TabsPage
@@ -31,7 +32,9 @@ export const firebaseConfig = {
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
-    AngularFireModule.initializeApp(firebaseConfig)
+    
+    AngularFireModule.initializeApp(firebaseConfig),
+    
 
   ],
   bootstrap: [IonicApp],
